@@ -1,0 +1,229 @@
+/* === LOGO IN HEADER === */
+/* === SECTIONS === */
+/* === BACKGROUNDS IMAGES */
+/* === SECTIONS === */
+/* === CONCERTS === */
+/* GRIDS */
+/* HOVERS */
+/* CURVES */
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  background-color: #d8e486;
+}
+
+/*  === HEADER === */
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/header-background-img.jpg");
+  height: 300px;
+  color: rgb(252, 249, 249);
+  z-index: 100;
+}
+header nav {
+  border: 0.1px solid rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header nav ul {
+  text-align: right;
+}
+header nav ul li {
+  display: inline;
+  padding-right: 3%;
+}
+header nav ul li a:visited, header nav ul li a:link {
+  color: rgb(252, 249, 249);
+  text-decoration: none;
+}
+header nav ul li a:hover, header nav ul li a:active {
+  border-bottom: 5px dotted #d8e486;
+  transition: border-bottom 0.5s;
+}
+header .logo {
+  text-align: center;
+}
+header .logo h1 {
+  font-family: "Courgette", Arial, Helvetica, sans-serif;
+  font-size: 600%;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+}
+header .logo p {
+  font-family: "Courgette", Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 150%;
+  margin: 0;
+  padding: 0;
+}
+header .slogan {
+  margin-top: 4%;
+  margin-left: 1%;
+  font-weight: bolder;
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+}
+header .slogan .circle {
+  color: #bed232;
+}
+
+main {
+  background-image: url("../img/music-notes-480-lighten3.jpg");
+}
+
+/* === HEADING OF SECTIONS === */
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Titillium Web", sans-serif;
+  margin-top: 0;
+  padding-top: 3%;
+}
+h2 a:link, h2 a:visited {
+  text-decoration: none;
+  color: #000;
+}
+h2 a:hover, h2 a:active {
+  font-size: 110%;
+}
+h2:after {
+  content: "";
+  display: block;
+  max-width: 950px;
+  border-bottom: 15px dotted #d8e486;
+  margin: 0 auto;
+}
+
+/* === CONCERTS, SERVICES === */
+section {
+  background-image: url("../img/music-notes-480-lighten3.jpg");
+}
+
+.author-concerts {
+  text-align: center;
+}
+
+.concert-row:hover {
+  transition: background-color 0.5s;
+  background-color: #d8e486;
+}
+
+.item-concert {
+  width: 23.25%;
+  display: inline-block;
+  text-align: center;
+}
+.item-concert a:visited, .item-concert a:link {
+  color: #000;
+}
+.item-concert a:hover, .item-concert a:active {
+  font-size: 110%;
+}
+
+/* === VIDEOS === */
+.videos-row {
+  text-align: center;
+}
+.videos-row .item-video {
+  width: 32.9666666667%;
+  display: inline-block;
+  text-align: center;
+}
+
+/* === ALBUMS === */
+.album-row {
+  text-align: center;
+}
+.album-row .item-album {
+  width: 49.45%;
+  display: inline-block;
+}
+.album-row .item-album img {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 4px 6px 10px #000;
+}
+.album-row .item-album .album-name {
+  text-align: center;
+  font-size: 120%;
+}
+.album-row .item-album .album-name em {
+  font-size: 75%;
+}
+.album-row .item-album p {
+  text-align: center;
+  margin-top: 5%;
+}
+.album-row .item-album p a:link, .album-row .item-album p a:visited {
+  background: #9aab26;
+  text-decoration: none;
+  color: rgb(252, 249, 249);
+  padding: 1%;
+}
+.album-row .item-album p a:hover, .album-row .item-album p a:active {
+  background: #75811d;
+  transition: background 0.5s;
+}
+
+/* === PHOTOGALLERY === */
+.photo-gallery img {
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 4px 6px 10px #000;
+  display: block;
+  margin: 3% auto 0 auto;
+}
+
+/* === CONTACTS === */
+.concert-planning {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.concert-planning .mail {
+  border: 15px solid #d8e486;
+  display: inline;
+  border-radius: 50%;
+}
+.concert-planning .gratis {
+  font-style: italic;
+}
+
+.socials {
+  display: block;
+  margin-left: 5%;
+}
+.socials a:visited, .socials a:link {
+  color: #000;
+}
+.socials a:hover, .socials a:active {
+  font-size: 110%;
+}
+.socials .patreon {
+  background: #d8e486;
+}
+
+.bye-bye {
+  display: block;
+  margin-left: 50%;
+  padding-bottom: 2%;
+  text-align: left;
+}
+.bye-bye .post-scriptum {
+  background: #d8e486;
+}
+
+/* == FOOTER == */
+footer {
+  text-align: center;
+}
+footer a:visited, footer a:link {
+  color: #000;
+}
+footer a:hover, footer a:active {
+  font-size: 110%;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+// universal function for creating grid (multicolumns layout)
+// default number of columns is 12 because 12 is good number for division by 2, 3, 4, 6
+// function returns a width of one column
+
+@function col-width($columns: 12, $page-width: 100%, $gap: 0.1%){
+    @return ($page-width - $gap*($columns - 1)) / $columns; 
+}
+
+@function col-width-concert($columns: 12, $page-width: 100%, $gap: 2.75%){
+    @return ($page-width - $gap*($columns - 1)) / $columns; 
+}

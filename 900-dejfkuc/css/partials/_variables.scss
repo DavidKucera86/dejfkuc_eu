@@ -1,0 +1,27 @@
+
+/* === LOGO IN HEADER === */
+
+$logo-font-family: 'Courgette', Arial, Helvetica, sans-serif;
+$h1-font-size: 600%;
+$p-font-size: 150%; 
+$text-head-foot-color: rgb(252, 249, 249);
+$text-color: #000;
+
+/* === SECTIONS === */
+$header-section-color: #dc4f00;
+$section-backround-color: $text-head-foot-color;
+
+// === COLORS ===
+$body-background: lighten(#cbdb5c, 10%); 
+$nav-background: rgba(0,0,0,0.5);
+$hover-bcg-color: lighten(#cbdb5c, 10%);
+$curve-color: lighten(#cbdb5c, 10%);
+
+/* === BACKGROUNDS IMAGES */
+$background-main: url("../img/music-notes-480-lighten3.jpg");
+$header-background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("../img/header-background-img.jpg");
+
+// === SIZES ===
+
+$header-height: 300px;
+$footer-height: 50px;

@@ -1,0 +1,69 @@
+/* === SECTIONS === */
+
+@mixin container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+@mixin section-header {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 0;
+    padding-top: 3%;    
+}
+
+@mixin links-in-section {
+    a:visited, a:link {
+        color: $text-color;
+    }
+    a:hover, a:active {
+        font-size: 110%;
+    }
+}
+
+@mixin section-underline-after {
+    content: "";
+    display: block;
+    max-width: 150px;
+    border-bottom: 2px solid $header-section-color;
+    margin: 10px auto;
+}
+
+/* === CONCERTS === */
+
+@mixin concert-content {
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+/* GRIDS */
+@mixin item-box-concert {
+    width: 4 * col-width-concert(); // 12 / 4 = 3 columns
+}
+
+@mixin item-box-video {
+    width: 4 * col-width(); // 12 / 4 = 3 columns
+}
+
+@mixin item-box-album {
+    width: 6 * col-width(); // 12 / 6 = 2 columns
+}
+
+
+/* HOVERS */
+@mixin hover-animation {
+    transition: background-color 0.5s;
+    background-color: $hover-bcg-color;
+}
+
+/* CURVES */
+
+@mixin curve-apperiance {
+    content: "";
+    display: block;
+    border-bottom: $boder-bottom-curve; 
+    
+}
