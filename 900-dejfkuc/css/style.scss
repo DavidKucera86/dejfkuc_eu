@@ -146,10 +146,11 @@ section {
         display: inline-block;        
     
         img {
-            width: 100%;  
+            width: 95%;  
             height: 400px;
             border-radius: 10px;            
             box-shadow: 4px 6px 10px #000;
+            // padding: 0 2%;
         }
     
         .album-name {
