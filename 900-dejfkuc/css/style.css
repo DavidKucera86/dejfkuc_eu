@@ -98,6 +98,10 @@ h2:after {
   margin: 0 auto;
 }
 
+h3 {
+  font-size: 1.5rem;
+}
+
 /* === CONCERTS, SERVICES === */
 section {
   background-image: url("../img/music-notes-480-lighten3.jpg");
@@ -226,4 +230,6 @@ footer a:visited, footer a:link {
 }
 footer a:hover, footer a:active {
   font-size: 110%;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
